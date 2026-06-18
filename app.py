@@ -1,7 +1,6 @@
 
 import streamlit as st
 
-# Tiêu đề ứng dụng
 st.title(" APP TÍNH TIỀN GỬI TIẾT KIỆM TẠI NGÂN HÀNG_NGUYỄN CÔNG DANH")
 
 C = st.number_input(
