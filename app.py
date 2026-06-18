@@ -21,10 +21,10 @@ n = st.number_input(
     value=12
 )
 
-# Đổi lãi suất từ % sang số thập phân
+
 i = i / 100
 
-# Nút tính toán
+
 if st.button("Tính toán"):
     
     # Lãi đơn
