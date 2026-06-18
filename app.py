@@ -1,8 +1,8 @@
 import streamlit as st
 
 # Tiêu đề ứng dụng
-st.image("DANH.jpg")
-st.title(" App tính Thuế Thu Nhập Cá Nhân đề tài 6 Nguyễn Minh Khang")
+st.image("DANHH.jpg")
+st.title(" App tính Thuế Thu Nhập Cá Nhân đề tài 6 Nguyễn Công Danh")
 
 # Nhập dữ liệu
 thu_nhap = st.number_input(
