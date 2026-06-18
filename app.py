@@ -3,7 +3,6 @@ st.image("logo.jpg")
 # Tiêu đề ứng dụng
 st.title(" APP TÍNH TIỀN GỬI TIẾT KIỆM_Đề Tài 4_SV NGUYỄN CÔNG DANH")
 
-# Nhập dữ liệu
 C = st.number_input(
     "Nhập số tiền khách hàng gửi tiết kiệm (triệu đồng)",
     min_value=0.0,
@@ -22,16 +21,16 @@ n = st.number_input(
     value=12
 )
 
-# Đổi lãi suất từ % sang số thập phân
+
 i = i / 100
 
-# Nút tính toán
+
 if st.button("Tính toán"):
     
-    # Lãi đơn
+
     An = C * (1 + (i / 12) * n)
 
-    # Lãi kép
+  
     Bn = C * (1 + i / 12) ** n
 
     st.success("Kết quả tính toán")
