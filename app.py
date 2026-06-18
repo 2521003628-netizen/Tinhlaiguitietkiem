@@ -1,5 +1,6 @@
-st.image("logo.jpg")
+
 import streamlit as st
+st.image("logo.jpg")
 st.title(" APP TÍNH TIỀN GỬI TIẾT KIỆM TẠI NGÂN HÀNG_NGUYỄN CÔNG DANH")
 
 C = st.number_input(
